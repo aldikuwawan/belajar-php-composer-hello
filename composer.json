@@ -1,0 +1,24 @@
+{
+    "name": "programerzamannow/belajar-php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Programerzamannow\\BelajarPhpComposerHello\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aldi Kurniawan",
+            "email": "aldikurniawan813@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Programmerzamannow\\Belajar\\": "src/"
+        }
+    }
+}
